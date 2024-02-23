@@ -1,3 +1,5 @@
+require_relative 'flower_shop'
+
 RSpec.describe Flower do
     describe "#initialize" do
         it "creates a new flower with name and price" do
